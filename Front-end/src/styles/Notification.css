@@ -1,0 +1,35 @@
+.notifications {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1); /* Black background with transparency */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  color: white; /* Set text color to white for contrast */
+  border-radius: 8px; /* Add some border radius for a rounded look */
+  }
+  
+  .notification-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #000000;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .notification-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  
+  .notification-message {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
